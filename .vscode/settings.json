@@ -1,0 +1,16 @@
+{
+  "python.pythonPath": "/Users/michael/miniconda3/envs/flint/bin/python",
+  "python.formatting.provider": "autopep8",
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "python.linting.flake8Args": [
+    "--ignore=F821,E501",
+    "--verbose"
+  ],
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  }
+}

@@ -1,0 +1,12 @@
+name: flint-worker
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - bowtie2=2.3.5
+  - pip=19.3.1
+  - python=3.7.6
+  - pip:
+    - pathlib2
+    - biopython
